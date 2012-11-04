@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+body {
+	background-color: #b4b4b4;
+	line-height: 1.5;
+	letter-spacing: 0.2em;
+	font-size: 0.875em;
+	font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: bold;
+	color:#000000;
+}
+
+a:link {
+	color: #b4b4b4;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #b4b4b4;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #b4b4b4;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* フロート　クリア */
+.clear {
+	clear: both;
+}
+
+/* ラッパー */
+#wrapper {
+	width: 100%;
+	margin: 0px auto;
+}
+
+/* ヘッダー */
+#header {
+	color: #ffffff;
+	text-align: right;
+	margin: 20px 50px 20px 0;
+}
+
+#header span.line {
+	margin-right: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #ffffff;
+}
+
+/* コンテンツ */
+#contents {
+	background-color: #ffffff;
+	border-top:1px solid #52647b;
+	border-bottom:1px solid #52647b;
+	padding: 50px 0 50px 0px;
+}
+
+/* ナビゲーション */
+#navi {
+	float: left;
+	width: 500px;
+}
+
+#navi ul {
+	margin-top: 50px;
+}
+
+#navi a {
+	display: block;
+	padding: 2px 0 2px 28px;
+}
+
+/* サイドコンテンツ */
+#side {
+	
+}
+
+#sidetitle {
+	background-color: #b4b4b4;
+	border-right: 40px solid #4b4f5f;
+	float: left;
+	height: 600px;
+	width: 225px;
+	padding-top: 30px;
+}
+
+#sidetext {
+	color: #ffffff;
+	margin-left: 14px;
+}
+
+#sidecontents {
+	float: left;
+	width: 450px;
+}
+
+#sidecontentstitle {
+	background-color: #e5eafe;
+	color: #b4b4b4;
+	font-size: 1.5em;
+	height: 100px;
+	padding-right: 10px;
+	padding-top: 30px;
+	text-align: right;
+	width: 450px;
+}
+
+#sidecontentstext {
+	padding: 15px;
+}
+
+#sidecontentstext p {
+	font-size: 0.75em;
+	margin-bottom: 5px;
+}
+
+#sidecontentstext p:first-letter {
+	float: left;
+	font-weight: bold;
+	font-size: 200%;
+}
+
+/* フッター */
+#footer {
+	color: #ffffff;
+	margin: 20px 50px 20px 0;
+	text-align: right;
+}
